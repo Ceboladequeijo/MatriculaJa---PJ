@@ -1,0 +1,28 @@
+{
+  "name": "projeto-integrador-matricula-ja",
+  "version": "1.0.0",
+  "description": "O projeto consiste numa aplicação Web feita para agilizar do processo de matrícula em instituições de ensino, indo desde o Fundamental até o ensino médio.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.19.2",
+    "express-async-errors": "^3.1.1",
+    "jquery": "^3.7.1",
+    "jsdom": "^24.0.0",
+    "morgan": "^1.10.0",
+    "prisma": "^5.13.0",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
